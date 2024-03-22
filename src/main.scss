@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  background-color: #f6f6ff;
+  width: 100%;
+}
+a,
+button {
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+
+  padding-block: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+
+  padding-block: 15px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6rem;
+}

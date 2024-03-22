@@ -1,0 +1,175 @@
+.container-full-home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+// SOBRE
+.section-presentation {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 250px;
+}
+
+.section-presentation-img {
+  width: 47%;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 55px 0px 55px 0px;
+    -webkit-border-radius: 55px 0px 55px 0px;
+    -moz-border-radius: 55px 0px 55px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+}
+
+.section-presentation-information {
+  width: 47%;
+  font-weight: 400;
+
+  p {
+    color: #7f949f;
+  }
+  h1 {
+    color: #05e59e;
+  }
+}
+
+// CULTURAL
+.section-cultural {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 250px;
+  background-color: #0c2434;
+  gap: 30px;
+}
+
+.section-cultural-card {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-cultural-card.direita {
+  flex-direction: row-reverse;
+}
+
+.section-cultural-card-img {
+  width: 47%;
+  img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: rgba(85, 85, 85, 0.25) 0px 13px 27px -5px,
+      rgba(252, 252, 252, 0.3) 0px 8px 16px -8px;
+  }
+}
+
+.section-cultural-card-information {
+  width: 47%;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    color: #05e59e;
+  }
+
+  p {
+    color: #ffff;
+  }
+}
+// VAGAS
+
+.section-vacancies {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 100px;
+  background-color: #20b494;
+  flex-direction: column;
+  gap: 50px;
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.section-vacancies-cards {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-vacancies-card {
+  min-width: 30%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.section-vacancies-card-img {
+  width: 100%;
+
+  img {
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.section-vacancies-card-information {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding-block: 20px;
+
+  h3 {
+    color: #05e59e;
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #0c2434;
+    transition: 0.4s;
+    box-shadow: none;
+    border: 2px solid transparent;
+
+    &:hover {
+      border: 2px solid #0c2434;
+      background-color: transparent;
+      color: #05e59e;
+      transition: 0.6s;
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+        rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+        rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px,
+        rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+  }
+}
